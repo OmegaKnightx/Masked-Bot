@@ -3,7 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setActivity('What are you doing', {type: "WATCHING"})
 });
 
 client.on('message', message => {
